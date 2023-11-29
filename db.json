@@ -1,89 +1,89 @@
 {
     "general": [
-        {
-            "id": "infos",
-            "Productname": "CM06-100",
-            "IP ": "192.68.40.130",
-            "Vendor": " Zoller & Fröhlich"
-        },
-        {
-            "id": "KOMAX",
-            "time": "12-12-2023",
-            "location": "Wangen-88239"
-        },
-        {
-            "id": "Crimp_Machine_1",
-            "vendor": "Z+F GmbH",
-            "Status": "ready"
-        },
-        {
-            "id": "Crimp_7",
-            "status": "running"
-        }
+                {
+                    "id": "infos",
+                    "Productname": "CM06-100",
+                    "IP ": "192.68.40.130",
+                    "Vendor": " Zoller & Fröhlich"
+                },
+                {
+                    "id": "KOMAX",
+                    "time": "12-12-2023",
+                    "location": "Wangen-88239"
+                },
+                {
+                    "id": "Crimp_Machine_1",
+                    "vendor": "Z+F GmbH",
+                    "Status": "ready"
+                },
+                {
+                    "id": "Crimp_7",
+                    "status": "running"
+                }
     ],
     "setting": [
-        {
-            "id": "language",
-            "Language": "DE"
-        },
-        {
-            "id": "userLevel",
-            "User Level": "Operator"
-        },
-        {
-            "id": "lockKeyboard",
-            "Lock Keyboard": "On"
-        }
+                {
+                    "id": "language",
+                    "Language": "DE"
+                },
+                {
+                    "id": "userLevel",
+                    "User Level": "Operator"
+                },
+                {
+                    "id": "lockKeyboard",
+                    "Lock Keyboard": "On"
+                }
     ],
   "recipes": [
-  {
-    "id": 1,
-    "Recipename": "Rezept A",
-    "CrimpHeight": "1.002",
-    "Termial Name": "Terminal AA",
-    "Waittime after Crimp": "50"
-  },
-  {
-    "id": 2,
-    "Recipename": "Rezept B",
-    "CrimpHeight": "1.042",
-    "Termial Name": "Terminal BB"
-  }
-],
+              {
+                "id": 1,
+                "Recipename": "Rezept A",
+                "CrimpHeight": "1.002",
+                "Termial Name": "Terminal AA",
+                "Waittime after Crimp": "50"
+              },
+              {
+                "id": 2,
+                "Recipename": "Rezept B",
+                "CrimpHeight": "1.042",
+                "Termial Name": "Terminal BB"
+              }
+    ],
   "command": [
-  {
-    "id": "reset",
-    "Reset": "on"
-  },
-  {
-    "id": "start",
-    "Start": "on"
-  },
-  {
-    "id": "terminalRemove",
-    "Termianl remove": "on"
-  },
-  {
-    "id": "terminalLoad",
-    "Terminal load ": "on"
-  },
-  {
-    "id": "preCenterOpen",
-    "Precenter open": "on"
-  },
-  {
-    "id": "bowlFeederOn",
-    "Bowl-Feeder On": "on"
-  }
+              {
+                "id": "reset",
+                "Reset": "on"
+              },
+              {
+                "id": "start",
+                "Start": "on"
+              },
+              {
+                "id": "terminalRemove",
+                "Termianl remove": "on"
+              },
+              {
+                "id": "terminalLoad",
+                "Terminal load ": "on"
+              },
+              {
+                "id": "preCenterOpen",
+                "Precenter open": "on"
+              },
+              {
+                "id": "bowlFeederOn",
+                "Bowl-Feeder On": "on"
+              }
     ],
   "test": [
-  {
-    "id": "test2",
-    "Timer A": 50
-  },
-  {
-    "id": "ZF Evocut",
-    "status": "working"
-  }
-    ]
+              {
+                "id": "test2",
+                "Timer A": 50
+              },
+              {
+                "id": "ZF Evocut",
+                "status": "working"
+              }
+        ]    
 }
