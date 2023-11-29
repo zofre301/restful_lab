@@ -75,7 +75,7 @@
     "id": "bowlFeederOn",
     "Bowl-Feeder On": "on"
   }
-]
+    ],
   "test": [
   {
     "id": "test2",
@@ -85,5 +85,5 @@
     "id": "ZF Evocut",
     "status": "working"
   }
-]
+    ]
 }
